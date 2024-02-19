@@ -131,6 +131,147 @@
                 </div>
             </div>
         </div>
+          <!-- mobile header -->
+      <div class="mobile-header">
+        <div class="mobile-logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="menu_side_wrap">
+            <div class="menu_side_inner">
+                <a class="menu_mobile_button menu_mobile_button_text" onclick="openNav()">☰</a>
+            </div>
+        </div>
+        <div class="menu_mobile_overlay" id="menu_mobile_overlay"></div>
+        <div class="menu_mobile" id="menu_mobile">
+            <div class="menu_mobile_inner">
+                <a class="menu_mobile_close icon-cancel" id="icon-cancel" onclick="closeNav()"></a>
+                <div class="accordion-nav">
+                    <div class="accordion-item">
+                        <div class="accordion-title gallery">
+                            <a href="index.html">home</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            About Us
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="school-history.html">School History</a></li>
+                              <li><a href="principal's-desk.html">Principal's Desk</a></li>
+                              <li><a href="vision.html">Our Vision</a></li>
+                              <li><a href="mission.html">Mission</a></li>
+                              <li><a href="school-motto.html">School Motto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            General Info
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">School Timings</a></li>
+                              <li><a href="#">School Song</a></li>
+                              <li><a href="#">Uniform</a></li>
+                              <li><a href="#">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            Infrastructure & Facilities 
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">Infrastructure</a></li>
+                              <li><a href="#">Library</a></li>
+                              <li><a href="#">Computer Lab</a></li>
+                              <li><a href="#">Science Lab</a></li>
+                              <li><a href="#">Indoor & Outdoor Sports</a></li>
+                              <li><a href="#">Healthcare</a></li>
+                              <li><a href="#">Counselling</a></li>
+                              <li><a href="#">Career Guidance</a></li>
+                              <li><a href="#">Security</a></li>
+                              <li><a href="#">SMS Facility</a></li>
+                              <li><a href="#">Insurance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            Rules
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">General Rules</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            Academics
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">Curriculum</a></li>
+                              <li><a href="#">Examination and Promotion</a></li>
+                              <li><a href="#">Day with Parents</a></li>
+                              <li><a href="#">Competitive tests and exams</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            Co-curricular
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">Sports Activities</a></li>
+                              <li><a href="#">Creative Activities</a></li>
+                              <li><a href="#">Music & Band</a></li>
+                              <li><a href="#">Leadership</a></li>
+                              <li><a href="#">Students Council</a></li>
+                              <li><a href="#">Workshops</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title">
+                            Achievements
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                              <li><a href="#">Sports Achievements</a></li>
+                              <li><a href="#">Academic Achievements</a></li>
+                              <li><a href="#">Co-Curricular Achievements</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title gallery">
+                            <a href="gallery.html">Gallery</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title gallery">
+                            <a href="events.html">Events</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title gallery">
+                            <a href="#">Careers</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-title gallery">
+                            <a href="contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </header>
     
     <main class="site-content">
@@ -145,12 +286,61 @@
             </div>
         </div>
 
-        <div class="vision-content">
-            <div class="vision-content-inner">
-                <div class="container">
-                    <div id="calendar"></div>
-                </div>
+        <div class="event-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1>EVENT CALENDER</h1>
+              </div>
             </div>
+            <div class="event-calender">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-5">
+                          <div class="header">
+                              <div id="month"></div>
+                              <div>
+                                <button id="btnBack"><i class="fas fa-angle-left"></i></button>
+                                <button id="btnNext"><i class="fas fa-angle-right"></i></button>
+                              </div>
+                            </div>
+                            <div class="weekdays">
+                              <div>Sun</div>
+                              <div>Mon</div>
+                              <div>Tue</div>
+                              <div>Wed</div>
+                              <div>Thu</div>
+                              <div>Fri</div>
+                              <div>Sat</div>
+                            </div>
+                            <div id="calendar"></div>
+                      </div>
+                          <div id="modal"></div>
+                          <div id="addEvent">
+                            <h2>Add Event</h2>
+                            <input type="text" id="txtTitle" placeholder="Event Title" />
+                            <button id="btnSave">Save</button>
+                            <button class="btnClose">Close</button>
+                          </div>
+                          <div id="viewEvent">
+                            <h2>Event</h2>
+                            <p id="eventText">This is Sample Event</p>
+                            <button id="btnDelete">Delete</button>
+                            <button class="btnClose">Close</button>
+                          </div>
+  
+                      <div class="col-lg-7">
+                          <div class="event-desc">
+                              <h3>Events</h3>
+                              <ul>
+                                  <li><span>Date</span> No events</li>
+                              </ul>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+            </div>
+          </div>
         </div>
     </main>
 

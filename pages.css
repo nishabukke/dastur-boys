@@ -150,6 +150,231 @@ select#website-select{
     padding-right: 15px;
   }
 
+
+/* menu css start */
+
+.mobile-header{
+  background-color: #012952;
+  padding: 10px 20px;
+}
+
+.mobile-logo img{
+  width: 60px;
+}
+
+.mobile-header{
+  display: none;
+}
+
+.menu_side_wrap {
+  position: absolute;
+  z-index: 20000;
+  right: 20px;
+  top: 15px;
+  width: 60px;
+}
+
+.menu_side_inner{
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_mobile_button_text {
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.menu_side_wrap .menu_mobile_button {
+  display: block;
+  right: 50%;
+  top: 10px;
+  font-size: 30px;
+  z-index: 1;
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+}
+
+.menu_mobile_button {
+  color: #ffffff;
+}
+
+.menu_side_wrap .menu_mobile_button:hover{
+  color: #f0aa00;
+}
+
+.menu_mobile_overlay {
+  display: none !important;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  right: 20px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.menu_mobile {
+  position: fixed;
+  z-index: 100002;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  margin-left: -300px;
+  -webkit-transition: margin ease .3s;
+  -moz-transition: margin ease .3s;
+  -ms-transition: margin ease .3s;
+  -o-transition: margin ease .3s;
+  transition: margin ease .3s;
+}
+/* 
+.opened {
+  margin-right: 0 !important;
+} */
+
+.menu_mobile_inner {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px 40px;
+  background-color: #012952;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_mobile_inner a {
+  color: #ffffff;
+}
+
+.icon-cancel{
+  color: #ffffff;
+}
+
+.menu_mobile_close {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: none;
+  height: 1em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.25em;
+  margin: 2em 2em 0 0;
+}
+
+.menu_mobile_close::before{
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0;
+  margin-top: -1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+  transform: rotate(45deg);
+  border-color: #ffffff;
+}
+
+.menu_mobile_close::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0;
+  margin-top: -1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+  transform: rotate(-45deg);
+  border-color: #ffffff;
+}
+
+.accordion-item .accordion-title{
+  position: relative;
+  padding: 10px 30px 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.accordion-content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content.active{
+  max-height: auto;
+}
+
+.accordion-content ul li{
+  list-style-type: none;
+  padding: 3px 0px;
+}
+
+.accordion-content ul li:hover a, .accordion-content ul li.active a{
+  color: #f0aa00;
+}
+
+.accordion-item.active .accordion-content{
+  /* line-height: 24; */
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.accordion-item .accordion-title::before{
+  content: "+";
+  position: absolute;
+  right: 10px;
+  font-size: 17px;
+  top: 7px;
+}
+
+.accordion-item.active .accordion-title::before{
+  content: "-";
+  font-size: 17px;
+  top: 7px;
+}
+
+.gallery::before{
+  display: none;
+}
+
+/* menu css end */
+
+
+
 /* school history css start */
 
 .common-banner{
@@ -230,7 +455,7 @@ select#website-select{
 }
 
 .school-history1 img{
-    position: absolute;
+    position: relative;
     width: 450px;
 }
 
@@ -244,7 +469,7 @@ select#website-select{
     content: "";
     position: absolute;
     background-color: #012952;
-    top: 280px;
+    top: -210px;
     left: -25px;
     right: 2px;
     width: 44%;
@@ -374,6 +599,202 @@ select#website-select{
 
 /* vision content css end */
 
+
+/* event section css start */
+
+.event-section{
+  padding: 100px 0;
+}
+
+.event-section h1{
+  color: #f0aa00;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* event calender css start */
+
+.event-calender{
+  margin-top: 60px;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header #month {
+  color: #012952;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header button {
+  width: 75px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+.header button {
+  background-color: #073e7d;
+}
+.weekdays {
+  width: 100%;
+  display: flex;
+  background-color: #2f3640;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.weekdays div {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px #cbd4c2;
+  color: #7f8fa6;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.day:hover {
+  background-color: rgba(112, 111, 211, 0.1);
+  color: #706fd3;
+}
+
+#currentDay {
+  background-color: #706fd3;
+  color: #fff;
+}
+
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+
+.event.holiday {
+  background-color: palegreen;
+  color: #3d3d3d;
+}
+
+.plain {
+  cursor: default;
+  box-shadow: none;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#addEvent,
+#viewEvent {
+  display: none;
+  width: 350px;
+  background-color: #fff;
+  padding: 25px;
+  position: absolute;
+  z-index: 20;
+}
+
+#addEvent h2,
+#viewEvent h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#txtTitle {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #cbd4c2;
+  font-size: 16px;
+}
+
+#btnSave {
+  background-color: #2ed573;
+}
+
+.btnClose {
+  background-color: #2f3542;
+}
+
+#viewEvent p {
+  margin-bottom: 20px;
+}
+
+#btnDelete {
+  background-color: #ea2027;
+}
+
+.error {
+  border-color: #ea2027 !important;
+}
+
+.event-desc{
+  border: 1px solid #d1d1d1;
+  overflow: hidden;
+  padding: 40px 30px 30px;
+  min-height: 400px;
+}
+
+.event-desc h3{
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 0 0 15px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.event-desc ul li span{
+  font-size: 16px;
+  color: #555;
+  margin-right: 10px;
+}
+
+/* event calender css end */
+
+/* event section css end */
+
+
+
+
 /* gallery page css start */
 
 .photos p{
@@ -492,6 +913,7 @@ select#website-select{
 /* modal css end */
 
 
+
 /* contact page css start */
 
 .contact-section{
@@ -530,43 +952,6 @@ select#website-select{
 }
 
 /* contact page css end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  
 /* footer css start */
@@ -621,4 +1006,333 @@ select#website-select{
   }
   
   /* footer css end */
+
+
+  @media screen and (max-width:1440px) {
+    .blackspace-principal:before{
+      top: 260px;
+    }
+
+    .school-history1 img{
+      width: 550px;
+    }
+  }
    
+  @media screen and (max-width:768px) {
+    .header-inner{
+      display: none;
+    }
+  
+    .mobile-header{
+      display: block;
+    }
+  
+    .breadcrumb h2{
+      padding: 0;
+      font-size: 28px;
+    }
+  
+    .breadcrumb p {
+      word-spacing: normal;
+      padding: 0;
+      font-size: 16px;
+    }
+  
+    .about-section, .event-section, .activities-section, .school-history, .principal, .vision-content-inner, .mission-content-inner, .gallery-section, .contact-inner-section, .photos-section, .map-section{
+      padding: 80px 40px !important;
+    }
+  
+    .vision-content, .mission-content{
+      padding: 80px 0px 0px 0px;
+    }
+  
+    .school-history{
+      margin-bottom: 0; 
+    }
+
+    .principal1{
+      margin-top: 60px;
+    }
+    
+    .principal{
+      margin: 0;
+    }
+    
+    .school-history2, .principal2{
+      padding: 0 0 0 20px;
+    }
+  
+    .school-history2 p, .principal p{
+      font-size: 14px;
+    }
+  
+    .school-history1 img, .principal img {
+      width: 100%;
+      position: relative;
+    }
+  
+    .blackspace:before, .blackspace-principal:before {
+      top: -177px;
+      height: 200px;
+  }
+  
+    .school-history1::before, .principal1::before {
+      right: -20px;
+      z-index: -1;
+      height: 200px;
+    }
+  
+    .vision-content-inner, .mission-content-inner{
+      padding: 30px;
+    }
+  
+    .vision-content-inner p, .mission-content-inner p{
+      font-size: 14px;
+    }
+
+    .photos p {
+      font-size: 12px;
+    }
+  
+    .mySlides, .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+      width: 60%;
+    }
+  
+    .prev, .next{
+      width: 30px;
+      height: 30px;
+      font-size: 13px;
+    }
+  
+    .event-section .container{
+      padding: 0;
+    }
+  
+    .header{
+      align-items: center;
+    }
+  
+    .header button, .day{
+      width: 40px;
+      height: 40px;
+    }
+  
+    .header #month{
+      font-size: 16px;
+    }
+  
+    .weekdays{
+      font-size: 11px;
+    }
+  
+    .event-calender .row{
+      gap: 20px;
+    }
+  
+    .activities-section .row{
+      gap: 30px
+    }
+    
+    .activities{
+      padding: 35px 30px 35px 30px;
+      min-height: auto;
+    }
+  
+    .midarrow{
+      width: 35px;
+      height: 35px;
+      bottom: -20px;
+      padding: 4px 9px 9px 9px;
+    }
+    
+  .footer-inner{
+    background-size: cover;
+  }
+
+  .logo-footer img{
+    width: 100px;
+  }
+
+  .lower-footer-content{
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+
+  .footer-links ul li {
+    padding: 5px 0px;
+    font-size: 14px;
+  }
+
+  .footer-links hr {
+    width: 80px;
+    height: 5px;
+    margin: 5px 0px;
+  }
+
+  .lower-footer-content img {
+    width: 80px;
+}
+  }
+  
+@media screen and (max-width:450px) {
+  .header-inner{
+    display: none;
+  }
+
+  .mobile-header{
+    display: block;
+  }
+
+  .breadcrumb h2{
+    padding: 0;
+    font-size: 28px;
+  }
+
+  .breadcrumb p {
+    word-spacing: normal;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .about-section, .event-section, .activities-section, .school-history, .principal, .vision-content-inner, .mission-content-inner, .gallery-section, .contact-inner-section, .photos-section, .map-section{
+    padding: 80px 40px !important;
+  }
+
+  .vision-content, .mission-content{
+    padding: 80px 0px 0px 0px;
+  }
+
+  .school-history{
+    margin-bottom: 0; 
+  }
+
+  .school-history .row{
+    gap: 60px;
+  }
+
+  .school-history2, .principal2{
+    padding: 0;
+  }
+
+  .principal2{
+    margin-top: 60px;
+  }
+
+  .school-history2 p, .principal p{
+    font-size: 14px;
+  }
+
+  .school-history1 img, .principal img {
+    width: 100%;
+    position: relative;
+  }
+
+  .blackspace:before, .blackspace-principal:before {
+    top: -177px;
+    height: 200px;
+}
+
+  .school-history1::before, .principal1::before {
+    right: -20px;
+    z-index: -1;
+    height: 200px;
+  }
+
+  .vision-content-inner, .mission-content-inner{
+    padding: 30px;
+  }
+
+  .vision-content-inner p, .mission-content-inner p{
+    font-size: 14px;
+  }
+
+  .photos-section .row{
+    gap: 20px;
+  }
+
+  .mySlides, .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+    width: 60%;
+  }
+
+  .prev, .next{
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .event-section .container{
+    padding: 0;
+  }
+
+  .header{
+    align-items: center;
+  }
+
+  .header button, .day{
+    width: 40px;
+    height: 40px;
+  }
+
+  .header #month{
+    font-size: 16px;
+  }
+
+  .weekdays{
+    font-size: 11px;
+  }
+
+  .event-calender .row{
+    gap: 20px;
+  }
+
+  .activities-section .row{
+    gap: 30px
+  }
+  
+  .activities{
+    padding: 35px 30px 35px 30px;
+    min-height: auto;
+  }
+
+  .midarrow{
+    width: 35px;
+    height: 35px;
+    bottom: -20px;
+    padding: 4px 9px 9px 9px;
+  }
+  
+  .footer-inner{
+    background-size: cover;
+  }
+
+  .footer-inner .row{
+    gap: 20px;
+  }
+
+  .logo-footer img{
+    width: 100px;
+  }
+
+  .lower-footer-content{
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+
+  .footer-links ul li {
+    padding: 5px 0px;
+  }
+
+  .footer-links hr {
+    width: 80px;
+    height: 5px;
+    margin: 5px 0px;
+  }
+
+  .lower-footer-content img {
+    width: 80px;
+}
+}
