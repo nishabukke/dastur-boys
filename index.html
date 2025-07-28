@@ -6,294 +6,112 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>The Sardar Dastur Hoshang Boys' High School</title>
 </head>
 <body>
     <header>
-        <div class="header-inner">
-            <div class="upper-header d-flex justify-content-between align-items-center ">
-                <div class="logo">
-                    <img src="images/logo.png" alt="" style="width: 85px;">
-                    <span>The Sardar Dastur Hoshang Boys' High School</span>
-                </div>
-                <div class="d-flex gap-4">
-                    <select name="websites" id="website-select">
-                        <option value="">--Other School Website--</option>
-                        <option value="trust"><a href="#">Sardar Dastur Schools Trust</a></option>
-                        <option value="primary"><a href="#">Bai Najamai Nosherwan Dastur Primary & Nursery School</a></option>
-                        <option value="boys"><a href="#">The Sardar Dastur Hoshang Boys' School</a></option>
-                        <option value="coed"><a href="#">Sardar Dastur Hormazdiar High School</a></option>
-                        <option value="girls"><a href="#">The Sardar Dastur Nosherwan Girls' High School</a></option>
-                        <option value="jr-college"><a href="#">Sardar Dastur Hormazdiar Junior College</a></option>
+        <div id="header">
+            <div class="upper-header">
+                <div class="container-fluid">
+                    <div class="left-upper-header">
+                        <a href="#"><span class="fas fa-envelope"></span> someone@example.com</a>
+                        <a href="tel:02026362632"><span class="fas fa-phone"></span> 020 2636 2632</a>
+                    </div>
+                    <div class="middle-upper-header">
+                      <select name="websites" id="website-select">
+                          <option value="">--Other School Website--</option>
+                          <option value="trust"><a href="#">Sardar Dastur Schools Trust</a></option>
+                          <option value="primary"><a href="#">Bai Najamai Nosherwan Dastur Primary & Nursery School</a></option>
+                          <option value="boys"><a href="#">The Sardar Dastur Hoshang Boys' School</a></option>
+                          <option value="coed"><a href="#">Sardar Dastur Hormazdiar High School</a></option>
+                          <option value="girls"><a href="#">The Sardar Dastur Nosherwan Girls' High School</a></option>
+                          <option value="jr-college"><a href="#">Sardar Dastur Hormazdiar Junior College</a></option>
                       </select>
-                    <a href="http://dasturonline.in/" class="common-btn">Online Payment</a>
-                </div>
-            </div>
-            <div class="lower-header">
-                <div class="lower-header-inner">
-                    
-                    <div class="navigation">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html" class="active home">Home</a></li>
-                            <li class="about-li"><a href="#" class="about">About Us  </a>
-                              <div class="dropdown">
-                                  <ul>
-                                      <li><a href="school-history.html"><span class="fas fa-school"></span>School History</a></li>
-                                      <li><a href="principal's-desk.html"><span class="fas fa-school"></span>Principal's Desk</a></li>
-                                      <li><a href="vision.html"><span class="fas fa-school"></span>Our Vision</a></li>
-                                      <li><a href="mission.html"><span class="fas fa-school"></span>Mission</a></li>
-                                      <li><a href="school-motto.html"><span class="fas fa-school"></span>School Motto</a></li>
-                                  </ul>
-                                </div>
-                            </li>
-                            <li class="general-info-li"><a href="#" class="general-info">General Info </span>
-                              </a>
-                              <div class="dropdown">
-                                  <ul>
-                                      <li><a href="#"><span class="fas fa-school"></span>School Timings</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>School Song</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Uniform</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Holidays</a></li>
-                                  </ul>
-                                </div>
-                            </li>
-                            <li class="infra-li"><a href="#" class="infrastructure">Infrastructure & Facilities </span>
-                              </a>
-                              <div class="dropdown">
-                                  <ul>
-                                      <li><a href="#"><span class="fas fa-school"></span>Infrastructure</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Library</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Computer Lab</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Science Lab</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Indoor & Outdoor Sports</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Healthcare</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Counselling</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Career Guidance</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Security</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>SMS Facility</a></li>
-                                      <li><a href="#"><span class="fas fa-school"></span>Insurance</a></li>
-                                  </ul>
-                                </div>
-                            </li>
-                            <li class="rules-li"><a href="#" class="rules">Rules </span>
-                            </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="#"><span class="fas fa-school"></span>General Rules</a></li>
-                                </ul>
-                              </div>
-                          </li>
-                            <li class="academics-li"><a href="#" class="academics">Academics </span>
-                            </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="#"><span class="fas fa-school"></span>Curriculum</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Examination and Promotion</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Day with Parents</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Competitive tests and exams</a></li>
-                                </ul>
-                              </div>
-                          </li>
-                            <li class="statutory-li"><a href="#" class="statutory">Co-Curricular</span>
-                            </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="#"><span class="fas fa-school"></span>Sports Activities</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Creative Activities</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Music & Band</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Leadership</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Students Council</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Workshops</a></li>
-                                </ul>
-                              </div>
-                            </li>
-                            <li class="statutory-li"><a href="#" class="statutory">Achievements</span>
-                            </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="#"><span class="fas fa-school"></span>Sports Achievements</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Academic Achievements</a></li>
-                                    <li><a href="#"><span class="fas fa-school"></span>Co-Curricular Achievements</a></li>
-                                </ul>
-                              </div>
-                            </li>
-                            <li><a href="gallery.html" class="gallery">Gallery</a></li>
-                            <li><a href="events.html" class="events">Events</a></li>
-                            <li><a href="#" class="careers">Careers</a></li>
-                            <li><a href="contact.html" class="contact">Contact Us</a></li>
-                          </ul>
+                    </div>
+                    <div class="right-upper-header">
+                      <a href="#">Calendar</a>
+                      <a href="#">Gallery</a>
+                        <a href="#" class="payment-btn"> Online Payment</a>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- mobile header -->
-      <div class="mobile-header">
-      <div class="mobile-logo">
-          <img src="images/logo.png" alt="">
-      </div>
-      <div class="menu_side_wrap">
-          <div class="menu_side_inner">
-              <a class="menu_mobile_button menu_mobile_button_text" onclick="openNav()">☰</a>
-          </div>
-      </div>
-      <div class="menu_mobile_overlay" id="menu_mobile_overlay"></div>
-      <div class="menu_mobile" id="menu_mobile">
-          <div class="menu_mobile_inner">
-              <a class="menu_mobile_close icon-cancel" id="icon-cancel" onclick="closeNav()"></a>
-              <div class="accordion-nav">
-                  <div class="accordion-item">
-                      <div class="accordion-title gallery">
-                          <a href="index.html">home</a>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          About Us
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="school-history.html">School History</a></li>
-                            <li><a href="principal's-desk.html">Principal's Desk</a></li>
-                            <li><a href="vision.html">Our Vision</a></li>
-                            <li><a href="mission.html">Mission</a></li>
-                            <li><a href="school-motto.html">School Motto</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          General Info
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">School Timings</a></li>
-                            <li><a href="#">School Song</a></li>
-                            <li><a href="#">Uniform</a></li>
-                            <li><a href="#">Holidays</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          Infrastructure & Facilities 
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">Infrastructure</a></li>
-                            <li><a href="#">Library</a></li>
-                            <li><a href="#">Computer Lab</a></li>
-                            <li><a href="#">Science Lab</a></li>
-                            <li><a href="#">Indoor & Outdoor Sports</a></li>
-                            <li><a href="#">Healthcare</a></li>
-                            <li><a href="#">Counselling</a></li>
-                            <li><a href="#">Career Guidance</a></li>
-                            <li><a href="#">Security</a></li>
-                            <li><a href="#">SMS Facility</a></li>
-                            <li><a href="#">Insurance</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          Rules
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">General Rules</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          Academics
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">Curriculum</a></li>
-                            <li><a href="#">Examination and Promotion</a></li>
-                            <li><a href="#">Day with Parents</a></li>
-                            <li><a href="#">Competitive tests and exams</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          Co-curricular
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">Sports Activities</a></li>
-                            <li><a href="#">Creative Activities</a></li>
-                            <li><a href="#">Music & Band</a></li>
-                            <li><a href="#">Leadership</a></li>
-                            <li><a href="#">Students Council</a></li>
-                            <li><a href="#">Workshops</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title">
-                          Achievements
-                      </div>
-                      <div class="accordion-content">
-                          <ul>
-                            <li><a href="#">Sports Achievements</a></li>
-                            <li><a href="#">Academic Achievements</a></li>
-                            <li><a href="#">Co-Curricular Achievements</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title gallery">
-                          <a href="gallery.html">Gallery</a>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title gallery">
-                          <a href="events.html">Events</a>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title gallery">
-                          <a href="#">Careers</a>
-                      </div>
-                  </div>
-                  <div class="accordion-item">
-                      <div class="accordion-title gallery">
-                          <a href="contact.html">Contact Us</a>
-                      </div>
-                  </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ceremony3.jpg" class="d-block w-100" alt="...">
               </div>
           </div>
-      </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-overlay"></div>
+        </div>
+        <div class="lower-header">
+          <div class="container-fluid">
+            <a href="index.html" class="logo">
+              <img src="images/logo.png" alt="logo img">
+              <h1 class="school-name">The Sardar Dastur Hoshang <br> Boys' High School</h1>
+            </a>
+            <div class="navigation">
+              <ul class="nav navbar-nav">
+                  <li class="nav-li"><a href="index.html" class="active">Home</a></li>
+                  <li class="nav-li"><a href="#">About Us  </a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="principal-desk.html">Principal's Desk</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="nav-li"><a href="#">Rules  </a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Timings & Prayer</a></li>
+                            <li><a href="#">Rules for School</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="nav-li"><a href="#">Infrastructure & Facilities  </a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Infrastructure</a></li>
+                            <li><a href="#">Facilities</a></li>
+                            <li><a href="#">Library</a></li>
+                            <li><a href="#">Labs</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="nav-li"><a href="#">Academics  </a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Curriculum & Affiliation</a></li>
+                            <li><a href="#">Examination & Promotion</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Co-curricular</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="nav-li"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>  
       </div>
     </header>
     
     <main class="site-content">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide position-relative ">
-                <img src="images/banner1.jpg" alt="" style="width: 100%; height: 500px;">
-                <h1 class="fadeInAnimation1">LETS CELEBRATE LEARNING!!</h1>
-              </div>
-              <div class="swiper-slide">
-                <img src="images/banner2.jpg" alt="" style="width: 100%; height: 500px;">
-                <h1 class="fadeInAnimation2">LETS CELEBRATE LEARNING!!</h1>
-              </div>
-              <div class="swiper-slide">
-                <img src="images/banner3.jpg" alt="" style="width: 100%; height: 500px;">
-                <h1 class="fadeInAnimation3">LETS CELEBRATE LEARNING!!</h1>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
 
           <div class="aea-section">
               <div class="container">
@@ -307,10 +125,8 @@
                         </div>
                       </div>
                       <div class="learnmore1">
-                        <h5>Activities</h5>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-                        <br>
-                        <a href="#">Learn More...</a>
+                        <h5>Campus & Facilities</h5>
+                        <span>Our boys' school boasts a secure and well-maintained campus with modern infrastructure.</span>
                       </div>
                     </div>
                   </div>
@@ -323,10 +139,8 @@
                         </div>
                       </div>
                       <div class="learnmore1">
-                        <h5>Education</h5>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-                        <br>
-                        <a href="#">Learn More...</a>
+                        <h5>Academic Excellence</h5>
+                        <span>We follow a progressive academic approach focused on conceptual clarity and critical thinking.</span>
                       </div>
                     </div>
                   </div>
@@ -339,10 +153,8 @@
                         </div>
                       </div>
                       <div class="learnmore1">
-                        <h5>Achievements</h5>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-                        <br>
-                        <a href="#">Learn More...</a>
+                        <h5>Leadership & Life Skills</h5>
+                        <span>Special emphasis is placed on nurturing leadership, discipline, and communication skills.</span>
                       </div>
                     </div>
                   </div>
@@ -350,227 +162,180 @@
               </div>
           </div>
 
-          <div class="about-section">
-            <div class="container">
-              <div class="row">
-                <div class="col-g-5 col-md-5 col-sm-12">
-                  <div class="about-content">
-                    <h3>ABOUT US</h3>
-                    <p>In today's ever-changing world, one of education's great challenges is to respond to the growing demands of the education environment so as to enhance the quality of teaching and learning in schools. The new paradigm requires that the educational system adapts itself by offering an environment which adequately meets the needs of students and teachers as opposed to having school patterns fit into the existing environment. This inevitably implies flexibility and adaptations in many areas - including the planning and designing of schools which correspond to these evolving needs.</p>
-                </div>
-                </div>
-                <div class="col-g-7 col-md-7 col-sm-12">
-                  <div class="about-img">
-                    <img src="images/about-img.jpeg" alt="" style="width: 100%;">
-                  </div>
-                </div>
+          <section class="about-section section-lg container">
+            <div class="about-inner">
+              <div class="left-about">
+                <div class="common-heading">
+                        <div class="small-heading">
+                            <span></span>
+                            about us
+                        </div>
+                        <h2>The Sardar Dastur Nosherwan Girls' High School</h2>
+                        <p>In today's ever-changing world, one of education's great challenges is to respond to the growing demands of the education environment so as to enhance the quality of teaching and learning in schools. The new paradigm requires that the educational system adapts itself by offering an environment which adequately meets the needs of students and teachers as opposed to having school patterns fit into the existing environment. This inevitably implies flexibility and adaptations in many areas - including the planning and designing of schools which correspond to these evolving needs.</p>
+                    </div>
+              </div>
+              <div class="right-about">
+                <img src="images/about-img.jpg" alt="">
               </div>
             </div>
+          </section>
+
+          
+        <section class="activities-section section-lg">
+          <div class="activities-inner">
+            <div class="left-activities">
+              <img src="images/banner3.jpg" alt="">
+            </div>
+            <div class="right-activities">
+                <div class="common-heading">
+                  <div class="small-heading">
+                      <span></span>
+                      Activities
+                  </div>
+                  <h2>Beyond Books: Discover, Perform, Lead</h2>
+                </div>
+                <p>Beyond academics, our school offers a dynamic range of activities to shape well-rounded individuals. From discipline-building programs like NCC and Scouts, to team spirit through sports, creativity through music, band, and choir, and future planning via career guidance sessions by Vision Verve — every student finds space to grow, lead, and express.</p>
+            </div>
+          </div>
+          <div class="container activity-points">
+            <div class="activity-item">
+              <div class="activity-headline">
+                <h5 class="m-0">NCC & Scouts</h5>
+                <img src="images/ncc-scouts.png" alt="">
+              </div>
+              <div class="activity-desc">
+                <p class="m-0">Our School offers NCC, Boy Scouts & RSP activities which aim to inculcate discipline, team spirit, leadership qualities and a spirit of adventure.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-headline">
+                <h5 class="m-0">Sports</h5>
+                <img src="images/sports.png" alt="">
+              </div>
+              <div class="activity-desc">
+                <p class="m-0">The School has adequate open spaces to conduct outdoor sports like Cricket, Football, Basketball etc. In addition, the school has a Gym Hall where indoor games are organized.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-headline">
+                <h5 class="m-0">Music, Band & Choir</h5>
+                <img src="images/music-band.png" alt="">
+              </div>
+              <div class="activity-desc">
+                <p class="m-0">Students are included in the School Band which displays its skills on important school functions. Selected students are also given coaching in western music to constitute the School Choir.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-headline">
+                <h5 class="m-0">Career Guidance</h5>
+                <img src="images/career-guidance.png" alt="">
+              </div>
+              <div class="activity-desc">
+                <p class="m-0">Career guidance and counseling sessions are conducted throughout the year to help the students to identify their potential and interest in order to choose the right career.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <section class="event-and-calender section-lg container">
+          <div class="common-heading">
+            <div class="small-heading">
+                <span></span>
+                Event Calender
+            </div>
+            <h2>Upcoming Events</h2>
           </div>
 
-          <div class="event-section">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <h1>EVENT CALENDER</h1>
-                </div>
-              </div>
-              <div class="event-calender">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="header">
-                                <div id="month"></div>
-                                <div>
-                                  <button id="btnBack"><i class="fas fa-angle-left"></i></button>
-                                  <button id="btnNext"><i class="fas fa-angle-right"></i></button>
-                                </div>
-                              </div>
-                              <div class="weekdays">
-                                <div>Sun</div>
-                                <div>Mon</div>
-                                <div>Tue</div>
-                                <div>Wed</div>
-                                <div>Thu</div>
-                                <div>Fri</div>
-                                <div>Sat</div>
-                              </div>
-                              <div id="calendar"></div>
-                        </div>
-                            <div id="modal"></div>
-                            <div id="addEvent">
-                              <h2>Add Event</h2>
-                              <input type="text" id="txtTitle" placeholder="Event Title" />
-                              <button id="btnSave">Save</button>
-                              <button class="btnClose">Close</button>
-                            </div>
-                            <div id="viewEvent">
-                              <h2>Event</h2>
-                              <p id="eventText">This is Sample Event</p>
-                              <button id="btnDelete">Delete</button>
-                              <button class="btnClose">Close</button>
-                            </div>
-    
-                        <div class="col-lg-7">
-                            <div class="event-desc">
-                                <h3>Events</h3>
-                                <ul>
-                                    <li><span>Date</span> No events</li>
-                                </ul>
+          <p class="m-0">Experience a spectrum of enriching events at our school, fostering growth, camaraderie, and unforgettable memories. From academic competitions to cultural festivities, our calendar offers diverse opportunities for every student's development.</p>
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="header">
+                            <div id="month"></div>
+                            <div>
+                              <button id="btnBack"><i class="fas fa-angle-left"></i></button>
+                              <button id="btnNext"><i class="fas fa-angle-right"></i></button>
                             </div>
                         </div>
-                        </div>
+                          <div class="weekdays">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                          </div>
+                          <div id="calendar"></div>
                     </div>
-              </div>
-            </div>
-          </div>
+                        <div id="modal"></div>
+                        <div id="addEvent">
+                          <h2>Add Event</h2>
+                          <input type="text" id="txtTitle" placeholder="Event Title" />
+                          <button id="btnSave">Save</button>
+                          <button class="btnClose">Close</button>
+                        </div>
+                        <div id="viewEvent">
+                          <h2>Event</h2>
+                          <p id="eventText">This is Sample Event</p>
+                          <button id="btnDelete">Delete</button>
+                          <button class="btnClose">Close</button>
+                        </div>
 
-          <div class="activities-section">
-            <h1>OUR ACTIVITIES</h1>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 position-relative ">
-                  <div class="activities">
-                    <div class="activity-img">
-                        <img src="images/ncc-scouts.png" alt="">
+                    <div class="col-lg-6">
+                        <div class="event-desc">
+                            <h3>Events</h3>
+                            <ul id="eventList">
+                                <li><span>Date</span> No events</li>
+                            </ul>
+                        </div>
                     </div>
-                    <h4>Ncc & Scouts</h4>
-                    <span>Our School offers NCC, Boy Scouts & RSP activities which aim to inculcate discipline, team spirit, leadership qualities and a spirit of adventure.</span>
-                  </div>
-                  <div class="midarrow">
-                    <img src="images/right.png" alt="">
                 </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 position-relative ">
-                  <div class="activities">
-                    <div class="activity-img">
-                        <img src="images/sports.png" alt="">
-                    </div>
-                    <h4>Sports</h4>
-                    <span>The School has adequate open spaces to conduct outdoor sports like Cricket, Football, Basketball etc. In addition, the school has a Gym Hall where indoor games are organized.</span>
-                  </div>
-                  <div class="midarrow">
-                    <img src="images/right.png" alt="">
-                </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 position-relative ">
-                  <div class="activities">
-                    <div class="activity-img">
-                        <img src="images/music-band.png" alt="">
-                    </div>
-                    <h4>Music, Band & Choir</h4>
-                    <span>Boys are also encouraged to come forward to learn musical instruments. Talented ones are included in the School Band which displays its skills on important school functions.</span>
-                  </div>
-                  <div class="midarrow">
-                    <img src="images/right.png" alt="">
-                </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 position-relative ">
-                  <div class="activities">
-                    <div class="activity-img">
-                        <img src="images/career-guidance.png" alt="">
-                    </div>
-                    <h4>Career Guidance</h4>
-                    <span>Career guidance and counseling sessions are conducted throughout the year to help the students to identify their potential and interest in order to choose the right career.</span>
-                  </div>
-                  <div class="midarrow">
-                    <img src="images/right.png" alt="">
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </section>
     </main>
 
-    <footer>
-      <div class="footer-inner">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="logo-footer">
-                <img src="images/logo_footer.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="footer-links">
-                <h4>Useful Links</h4>
-                <hr>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="school-history.html">School History</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="footer-links">
-                <h4>Contact Us</h4>
-                <hr>
-                <ul>
-                  <li>
-                    Sardar Dastur Hoshang Boys' School
-                    2, Tarapore Road, Pune, Maharashtra 411001
-                  </li>
-                  <li>Telephone:
-                    +91 020 2636 2632</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="footer-links">
-                <h4>About Us</h4>
-                <hr>
-                <ul>
-                  <li class="abt-footer">
-                    To perpetuate the memory of Shams-ul-Ulema Sardar Khan Bahadur Dr. Hoshang Jamasp Dastur, M.A., Ph.D., C.I.E., a great scholar, the Sardar Dastur Hoshang Boy's High School was inaugurated on the 8th January  1912 to meet the Educational needs of the Zoroastrians in and around Pune.  Its availability as an English Medium School for boys.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <footer id="footer" class="section-lg pb-0">
+        <div class="footer-inner container">
+                <div class="footer-links">
+                    <div class="footer-logo">
+                        <img src="images/logo_footer.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h5>Useful Links</h5>
+                    <hr>
+                    <ul class="useful-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">School History</a></li>
+                        <li><a href="index.html">Events</a></li>
+                        <li><a href="index.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5>Contact Us</h5>
+                    <hr>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/poNWWBgYVZZYbMy78">Sardar Dastur Hoshang Boys' School 2, Tarapore Road, Pune, Maharashtra 411001</a></li>
+                        <li><a href="tel:02026362632">020 2636 2632</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5>About Us</h5>
+                    <hr>
+                    <ul>
+                        <li>The Sardar Dastur Hoshang Boy's High School was inaugurated on the 8th January  1912 to meet the Educational needs of the Zoroastrians in and around Pune.</li>
+                    </ul>
+                </div>
         </div>
-      </div>
-      <div class="lower-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="lower-footer-content">
-                <div class="copyright">
-                  <p>Copyright 2016 | All rights reserved</p>
+        <div class="lower-footer container">
+                <div class="lower-footer-links">
+                    <p>Copyright © 2016 Sardar Dastur School. All Rights Reserved.</p>
+                    <p>Designed & Developed by Nspiresoft LLP</p>
                 </div>
-                <div class="terms">
-                  <p>Terms & Conditions | Privacy Policy</p>
-                </div>
-                <div class="devloped">
-                  <p>Designed & Developed by : <img src="images/nspire.png" alt=""></p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </footer>
 
 
-          <!-- Swiper JS -->
-          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
           <script src="script.js"></script>
-      
-          <script>
-              var swiper = new Swiper(".mySwiper", {
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplay: {
-                  delay: 2500,
-                  disableOnInteraction: false,
-                },
-                pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-                },
-              });
-            </script>
 </body>
 </html>
