@@ -110,3 +110,4 @@ items.forEach((item) => {
         caption.style.opacity = "0";
     });
 });
+
