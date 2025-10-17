@@ -910,185 +910,6 @@ select#website-select{
 }
 
 
-@media screen and (max-width:576px) {
-  .mobile-header{
-        display: block;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .upper-header,.lower-header, .marquee-container{
-        display: none;
-    }
-
-    .section-lg, .about-inner{
-      padding: 30px 20px;
-    }
-
-    p, .about-inner p{
-      font-size: 14px;
-    }
-
-    .small-heading{
-      font-size: 18px;
-    }
-
-    .common-heading h2{
-      font-size: 24px;
-    }
-
-    .why-choose-inner, .school-news-inner, .footer-inner{
-      grid-template-columns: repeat(1,1fr);
-      gap: 20px;
-    }
-
-    .wci-img{
-      height: 165px;
-    }
-
-    .why-choose-heading {
-    padding: 5px 15px;
-    justify-content: center;
-    }
-
-    .wci-icons {
-    width: 30px;
-    }
-
-    .counters {
-      padding: 0px 0px;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .box p {
-    font-size: 14px;
-    text-transform: capitalize;
-    }
-
-    .box h2 {
-    font-weight: 600;
-    font-size: 16px;
-  }
-
-  .counter-section .container{
-    padding: 0;
-  }
-
-  .events-section .mySwiper1 {
-    margin-top: 30px;
-    padding-bottom: 0px;
-}
-
-.footer-links ul li {
-    padding: 5px 0px;
-    font-size: 14px;
-}
-
-.lower-footer-links{
-  flex-direction: column;
-}
-
-.lower-footer-links p{
-  font-size: 12px;
-}
-  }
-
-  @media screen and (max-width:768px) {
-  .mobile-header{
-        display: block;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .upper-header,.lower-header, .marquee-container{
-        display: none;
-    }
-
-    .section-lg, .about-inner{
-      padding: 30px 20px;
-    }
-
-    p, .about-inner p{
-      font-size: 14px;
-    }
-
-    .small-heading{
-      font-size: 18px;
-    }
-
-    .common-heading h2{
-      font-size: 24px;
-    }
-
-     .school-news-inner, .footer-inner{
-      grid-template-columns: repeat(1,1fr);
-      gap: 20px;
-    }
-
-    .why-choose-inner{
-      grid-template-columns: repeat(2,1fr);
-      gap: 20px;
-    }
-
-    .facilities-section .card-body{
-      padding: 15px;
-    }
-
-    .wci-img{
-      height: 165px;
-    }
-
-    .why-choose-heading {
-    padding: 5px 15px;
-    justify-content: center;
-    }
-
-    .wci-icons {
-    width: 30px;
-    }
-
-    .counters {
-      padding: 0px 0px;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .box p {
-    font-size: 14px;
-    text-transform: capitalize;
-    }
-
-    .box h2 {
-    font-weight: 600;
-    font-size: 16px;
-  }
-
-  .counter-section .container{
-    padding: 0;
-  }
-
-  .events-section .mySwiper1 {
-    margin-top: 30px;
-    padding-bottom: 0px;
-}
-
-.footer-links ul li {
-    padding: 5px 0px;
-    font-size: 14px;
-}
-
-.lower-footer-links{
-  flex-direction: column;
-}
-
-.lower-footer-links p{
-  font-size: 12px;
-}
-  }
-
   @media screen and (max-width:1024px) {
   .mobile-header{
         display: block;
@@ -1182,4 +1003,187 @@ select#website-select{
   font-size: 12px;
 }
   }
+
+    @media screen and (max-width:768px) {
+  .mobile-header{
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .upper-header,.lower-header, .marquee-container{
+        display: none;
+    }
+
+    .section-lg, .about-inner{
+      padding: 30px 20px;
+    }
+
+    p, .about-inner p{
+      font-size: 14px;
+    }
+
+    .small-heading{
+      font-size: 18px;
+    }
+
+    .common-heading h2{
+      font-size: 24px;
+    }
+
+     .school-news-inner, .footer-inner{
+      grid-template-columns: repeat(1,1fr);
+      gap: 20px;
+    }
+
+    .why-choose-inner{
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+    }
+
+    .facilities-section .card-body{
+      padding: 15px;
+    }
+
+    .wci-img{
+      height: 165px;
+    }
+
+    .why-choose-heading {
+    padding: 5px 15px;
+    justify-content: center;
+    }
+
+    .wci-icons {
+    width: 30px;
+    }
+
+    .counters {
+      padding: 0px 0px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .box p {
+    font-size: 14px;
+    text-transform: capitalize;
+    }
+
+    .box h2 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .counter-section .container{
+    padding: 0;
+  }
+
+  .events-section .mySwiper1 {
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+
+.footer-links ul li {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.lower-footer-links{
+  flex-direction: column;
+}
+
+.lower-footer-links p{
+  font-size: 12px;
+}
+  }
+
+@media screen and (max-width:576px) {
+  .mobile-header{
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .upper-header,.lower-header, .marquee-container{
+        display: none;
+    }
+
+    .section-lg, .about-inner{
+      padding: 30px 20px;
+    }
+
+    p, .about-inner p{
+      font-size: 14px;
+    }
+
+    .small-heading{
+      font-size: 18px;
+    }
+
+    .common-heading h2{
+      font-size: 24px;
+    }
+
+    .why-choose-inner, .school-news-inner, .footer-inner{
+      grid-template-columns: repeat(1,1fr);
+      gap: 20px;
+    }
+
+    .wci-img{
+      height: 165px;
+    }
+
+    .why-choose-heading {
+    padding: 5px 15px;
+    justify-content: center;
+    }
+
+    .wci-icons {
+    width: 30px;
+    }
+
+    .counters {
+      padding: 0px 0px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .box p {
+    font-size: 14px;
+    text-transform: capitalize;
+    }
+
+    .box h2 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .counter-section .container{
+    padding: 0;
+  }
+
+  .events-section .mySwiper1 {
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+
+.footer-links ul li {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.lower-footer-links{
+  flex-direction: column;
+}
+
+.lower-footer-links p{
+  font-size: 12px;
+}
+  }
+
+
+
+
 
